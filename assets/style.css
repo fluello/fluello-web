@@ -205,6 +205,35 @@ section { padding: 80px 5%; }
   font-weight: 600;
 }
 
+/* ── Benefits ── */
+.benefits-list {
+  max-width: 540px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+}
+.benefit-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.5;
+}
+.benefit-row .benefit-icon { flex-shrink: 0; font-size: 1.1rem; margin-top: 1px; }
+.benefit-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 6px 0;
+}
+.benefit-row.benefit-no {
+  font-size: 0.93rem;
+  color: var(--secondary);
+}
+
 /* ── How it works ── */
 .steps { max-width: 900px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 28px; }
 .step { text-align: center; }
